@@ -75,7 +75,8 @@ public class CustomSkinnedMesh : MonoBehaviour
             26, 24, 28, 24, 29, 28, 24, 25, 29, 25, 27, 29, 22, 25, 24, 22, 23, 25, 22, 21, 23,
             31, 22, 30, 23, 33, 32 //Ears
         };
-
+		
+		//Set Bindpose
         m.bindposes = new Matrix4x4[]
         {
             bones[0].worldToLocalMatrix*bones[0].worldToLocalMatrix,
